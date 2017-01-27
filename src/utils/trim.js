@@ -2,7 +2,7 @@
 // browsers have String.prototoype.trim().
 
 function trim(s) {
-  return s.replace(/^\s+|\s+$/g, '');
+  return s.toString().replace(/^\s+|\s+$/g, '');
 }
 
 module.exports = trim;
